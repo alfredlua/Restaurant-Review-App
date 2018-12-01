@@ -315,6 +315,22 @@ nav h1 a {
 /* ====================== Min width 400px ====================== */
 
 @media only screen and (min-width: 400px) {
+  #restaurant-img {
+    height: 40%;
+  }
+}
+
+/* ====================== Min width 500px ====================== */
+
+@media only screen and (min-width: 500px) {
+  #restaurant-img {
+    height: 50%;
+  }
+}
+
+/* ====================== Min width 600px ====================== */
+
+@media only screen and (min-width: 600px) {
   nav {
     height: 75px;
   }
@@ -344,24 +360,38 @@ nav h1 a {
     padding-top: 140px;
   }
   #restaurant-container, #reviews-container {
-    width: 48%;
+    width: 40%;
     display: block;
   }
   #restaurant-name {
     font-size: 20pt;
   }
   #restaurant-img {
-    width: 90%;
     height: 30%;
   }
-  #restaurant-cuisine {
+  #reviews-container h2 {
+    font-size: 24pt;
+  }
+}
+
+/* ====================== Min width 750px ====================== */
+
+@media only screen and (min-width: 750px) {
+  #restaurant-container, #reviews-container {
+    width: 45%;
+  }
+  #restaurant-img, #restaurant-cuisine {
     width: 90%
   }
   #reviews-list li {
     width: 90%;
   }
-  #reviews-container h2 {
-    font-size: 24pt;
-  }
+}
 
+/* ====================== Min width 1000px ====================== */
+
+@media only screen and (min-width: 1000px) {
+  #restaurant-container, #reviews-container {
+    width: 48%;
+  }
 }
