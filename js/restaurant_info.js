@@ -149,6 +149,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
  */
 createReviewHTML = (review) => {
   const li = document.createElement('li');
+  li.tabIndex = 0;
   const reviewerDetails = document.createElement('div');
   reviewerDetails.className = 'reviewer-details';
   li.appendChild(reviewerDetails);
