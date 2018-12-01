@@ -312,6 +312,14 @@ nav h1 a {
 
 /* ====================== Media Queries ====================== */
 
+/* ====================== Max width 350px ====================== */
+
+@media only screen and (max-width: 350px) {
+  #restaurant-container, #reviews-container {
+    padding: 40px 30px;
+  }
+}
+
 /* ====================== Min width 400px ====================== */
 
 @media only screen and (min-width: 400px) {
